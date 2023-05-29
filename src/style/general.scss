@@ -6,4 +6,10 @@ $white-text: #FFFFFF;
     color: $white-text;
     background-color: $primary-color;
     border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $white-text;
+        color: $primary-color;
+    }
 }
