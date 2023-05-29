@@ -1,29 +1,10 @@
 <script>
+import { store } from '../store';
+
 export default {
     data() {
         return {
-            menuData: [
-                {
-                    name: 'HOME',
-                    src: '#',
-                    active: true,
-                },
-                {
-                    name: 'ABOUT',
-                    src: '#',
-                    active: false,
-                },
-                {
-                    name: 'DEPARTMENT',
-                    src: '#',
-                    active: false,
-                },
-                {
-                    name: 'ARTICLES',
-                    src: '#',
-                    active: false,
-                },
-            ],
+            store,
         };
     },
 };
@@ -34,7 +15,7 @@ export default {
         <img src="../assets/images/medical_logo_1x_light.png" alt="" class="ps-4 py-3">
         <span>
             <ul>
-                <li v-for="(menuItem, i) in menuData" :key="i">
+                <li v-for="(menuItem, i) in store.menuData" :key="i">
                     <a :href="menuItem.src" :class="{ active: menuItem.active }">{{ menuItem.name }}</a>
                 </li>
             </ul>
