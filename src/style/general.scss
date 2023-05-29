@@ -1,0 +1,9 @@
+$primary-color: #3BAFBF;
+$white-text: #FFFFFF;
+
+.btn_primary {
+    width: fit-content;
+    color: $white-text;
+    background-color: $primary-color;
+    border-radius: 5px;
+}
