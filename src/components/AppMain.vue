@@ -1,16 +1,16 @@
 <script>
-import AppCardsDoctors from './AppCardsDoctors.vue';
+import AppDoctors from './AppDoctors.vue';
 import AppFeatures from './AppFeatures.vue'
 
 export default {
-    components: { AppFeatures, AppCardsDoctors }
+    components: { AppFeatures, AppDoctors }
 };
 
 </script>
 
 <template>
     <AppFeatures />
-    <AppCardsDoctors />
+    <AppDoctors />
 </template>
 
 <style lang="scss" scoped></style>

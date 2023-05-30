@@ -45,6 +45,27 @@ export const store = reactive({
             description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim',
             img: 'src/assets/images/icon-4.png',
         },
+    ],
+
+    doctor: [
+        {
+            name: 'Jon SNOW',
+            specialization: 'Anesthesiologist',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil earum',
+            img: 'src/assets/images/doctor-1.jpg',
+        },
+        {
+            name: 'Tony Stark',
+            specialization: 'Cardiologist',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil earum',
+            img: 'src/assets/images/doctor-2.jpg',
+        },
+        {
+            name: 'Anna Smith',
+            specialization: 'Nurse Practioner',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil earum',
+            img: 'src/assets/images/doctor-3.jpg',
+        },
     ]
 });
 
