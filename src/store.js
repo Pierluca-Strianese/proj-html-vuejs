@@ -99,7 +99,23 @@ export const store = reactive({
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
             img: 'src/assets/images/icon-13.png',
         }
-    ]
+    ],
+
+    cardTour: [
+        {
+            name: 'Emergency Care',
+            color: '#3BAFBF',
+        },
+        {
+            name: 'Expert Diagnostic',
+            color: '#3896C2',
+        },
+        {
+            name: 'Superb Rehabilitation',
+            color: '#327EC7',
+        },
+
+    ],
 });
 
 export default store

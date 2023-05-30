@@ -1,6 +1,8 @@
 <script>
-export default {
+import AppCardTour from './AppCardTour.vue'
 
+export default {
+    components: { AppCardTour }
 };
 
 </script>
@@ -25,6 +27,9 @@ export default {
             <img src="../assets/images/play-icon.png" alt="" class="mt-5">
         </div>
     </div>
+    <div class="container_cardtour">
+        <AppCardTour />
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -35,5 +40,9 @@ export default {
     background-size: cover;
     padding: 7rem 0;
     color: $white-text;
+}
+
+.container_cardtour {
+    display: flex;
 }
 </style>

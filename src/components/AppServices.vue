@@ -43,6 +43,7 @@ export default {
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 1rem;
+
     }
 }
 </style>

@@ -36,5 +36,10 @@ export default {
         padding: 1rem;
     }
 
+    h4:hover {
+        color: $primary-color;
+        cursor: pointer;
+    }
+
 }
 </style>

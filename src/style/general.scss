@@ -20,6 +20,14 @@ $color_instagram: #4B7197;
     }
 }
 
+.btn_secondary {
+    width: fit-content;
+    font-size: .8rem;
+    color: $white-text;
+    border: 2px solid white;
+    margin-inline: auto;
+}
+
 .container_big {
     width: 1200px;
     margin-inline: auto;

@@ -52,6 +52,11 @@ export default {
                 margin: 1rem 0;
                 font-size: 1rem;
             }
+
+            h3:hover {
+                color: $primary-color;
+                cursor: pointer;
+            }
         }
     }
 }
