@@ -19,3 +19,15 @@ $color_instagram: #4B7197;
         color: $primary-color;
     }
 }
+
+.line_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.long_line {
+    width: 200px;
+    display: block;
+}

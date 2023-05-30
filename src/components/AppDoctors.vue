@@ -12,6 +12,9 @@ export default {
         <div>
             <img src="../assets/images/icon-5.png" alt="">
             <h3> MEET OUR DOCTORS </h3>
+            <div class="line_container">
+                <img src="../assets/images/long-line.png" alt="" class="long_line">
+            </div>
             <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id nihil
                 unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque ex.
@@ -26,6 +29,7 @@ export default {
 @use "../style/general.scss" as *;
 
 .container_doctor {
+    padding: 4rem 0;
     background-color: $background_color2;
 
     div {
@@ -33,12 +37,8 @@ export default {
         margin-inline: auto;
         text-align: center;
 
-        img {
-            padding-top: 6rem;
-        }
-
         h3 {
-            padding: 2rem 0;
+            padding-top: 2rem;
         }
 
         span {

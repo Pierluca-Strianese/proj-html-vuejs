@@ -14,6 +14,10 @@ export default {
         <img src="../assets/images/icon-6.png" alt="">
         <h3> OUR HEALTH SERVICES </h3>
 
+        <div class="line_container">
+            <img src="../assets/images/long-line.png" alt="" class="long_line">
+        </div>
+
         <div class="services_container">
             <AppCardService />
         </div>
