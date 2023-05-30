@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="container_doctor">
+    <div class="container_doctor pb-5">
         <div>
             <img src="../assets/images/icon-5.png" alt="">
             <h3> MEET OUR DOCTORS </h3>

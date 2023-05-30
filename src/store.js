@@ -66,6 +66,39 @@ export const store = reactive({
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil earum',
             img: 'src/assets/images/doctor-3.jpg',
         },
+    ],
+
+    services: [
+        {
+            name: 'Rehabilitstion center',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-14.png',
+        },
+        {
+            name: 'Dental implants',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-15.png',
+        },
+        {
+            name: 'Medicine Research',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-16.png',
+        },
+        {
+            name: 'Blood bank',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-11.png',
+        },
+        {
+            name: 'Pharmaceutical advice',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-12.png',
+        },
+        {
+            name: 'Medical Couneling',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quidem iure obcaecati nemo dignissimos eum assumenda voluptatum dolorem quasi officia alias architecto.',
+            img: 'src/assets/images/icon-13.png',
+        }
     ]
 });
 
