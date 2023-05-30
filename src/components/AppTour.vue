@@ -1,33 +1,28 @@
 <script>
-import AppCardService from './AppCardService.vue';
-
 export default {
-    components: {
-        AppCardService
-    }
+
 };
 
 </script>
 
 <template>
-    <div class="container_big">
+    <div class="container_tour">
         <div class="container_description_section">
-            <img src="../assets/images/icon-6.png" alt="">
-            <h3> OUR HEALTH SERVICES </h3>
+            <img src="../assets/images/icon-7.png" alt="">
+            <h4>TOUR OUR FACILITES</h4>
 
             <div class="line_container">
                 <img src="../assets/images/long-line.png" alt="" class="long_line">
             </div>
 
-            <span>
+            <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id
                 nihil
                 unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque
                 ex.
-            </span>
-        </div>
-        <div class="services_container pt-5 ">
-            <AppCardService />
+            </div>
+
+            <img src="../assets/images/play-icon.png" alt="" class="mt-5">
         </div>
     </div>
 </template>
@@ -35,14 +30,10 @@ export default {
 <style lang="scss" scoped>
 @use "../style/general.scss" as *;
 
-.container_big {
-
-    .services_container {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
+.container_tour {
+    background-image: url("../assets/images/paralax-bg-tour-facilities.jpg");
+    background-size: cover;
+    padding: 7rem 0;
+    color: $white-text;
 }
 </style>

@@ -33,11 +33,18 @@ export default {
 .container_cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
 
     .card_doctor {
-        width: 359px;
+        width: calc(100% / 3 - 2rem);
         background-color: white;
         text-align: left;
+
+        img {
+            width: 100%;
+
+        }
 
         .description {
             h4 {

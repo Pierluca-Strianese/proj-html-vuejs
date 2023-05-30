@@ -13,12 +13,14 @@ export default {
 </script>
 
 <template>
-    <main>
-        <h2> Welcome to Avada Health </h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi itaque, voluptate fuga sequi consequuntur
-            quod molestiae placeat labore officia dignissimos, at blanditiis mollitia optio ad veritatis veniam! Natus,
-            porro vero!
-        </p>
+    <div class="container_big">
+        <div class="container_description_section">
+            <h2> Welcome to Avada Health </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi itaque, voluptate fuga sequi consequuntur
+                quod molestiae placeat labore officia dignissimos, at blanditiis mollitia optio ad veritatis veniam! Natus,
+                porro vero!
+            </p>
+        </div>
         <ul>
             <li v-for="(menuItem, i) in store.features" :key="i">
                 <img :src="menuItem.img" alt="">
@@ -27,17 +29,13 @@ export default {
 
             </li>
         </ul>
-    </main>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 @use "../style/general.scss" as *;
 
-main {
-    width: 1200px;
-    margin-inline: auto;
-    padding: 7rem 0;
-    text-align: center;
+.container_big {
     color: $primary-text;
 
     ul {
