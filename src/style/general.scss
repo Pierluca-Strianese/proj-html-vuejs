@@ -8,6 +8,9 @@ $color_instagram: #4B7197;
 
 
 .btn_primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: fit-content;
     color: $white-text;
     background-color: $primary-color;
@@ -51,4 +54,12 @@ $color_instagram: #4B7197;
 .long_line {
     width: 200px;
     display: block;
+}
+
+.input_form {
+    background: transparent;
+    width: calc((100% / 2) - 1rem);
+    border: 1px solid white;
+    padding: .5rem;
+    margin: 1rem 0;
 }
