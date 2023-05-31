@@ -24,9 +24,9 @@ export default {
 
             <div class="form">
                 <input type="text" placeholder="Name" class="input_form">
-                <input type="text" placeholder="Email" class="input_form">
-                <input type="text" placeholder="Phone number" class="input_form">
-                <input type="text" placeholder="Date" class="input_form">
+                <input type="email" placeholder="Email" class="input_form">
+                <input type="number" placeholder="Phone number" class="input_form">
+                <input type="datetime-local" placeholder="Date" class="input_form">
             </div>
 
             <div class="form_note">
@@ -55,10 +55,17 @@ export default {
     }
 
     .form_note {
+        ::-webkit-input-placeholder {
+            color: white;
+            font-style: italic;
+        }
+
         input {
             width: 100%;
             height: 7rem;
         }
+
+
     }
 
     .btn_primary {

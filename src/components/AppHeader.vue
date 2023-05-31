@@ -11,10 +11,11 @@ export default {
         <AppNavBar />
         <div class="container">
             <h1> Caring <span> For Life </span> </h1>
-            <p class="py-2">Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health
+            <div class="description py-2">Kind words can be short and easy to speak, but their echoes are truly endless.
+                Avada Health
                 focuses on you as
-                if it was our own family.</p>
-            <div class="btn_primary py-2 px-5"> LEARN MORE </div>
+                if it was our own family.</div>
+            <div class="btn_primary my-3 py-2 px-5"> LEARN MORE </div>
         </div>
     </main>
 </template>
@@ -28,14 +29,20 @@ main {
     height: 90vh;
 
     .container {
-        width: 700px;
+        width: 900px;
         color: $white-text;
         padding-top: 10rem;
 
         h1 {
+            font-size: 4rem;
+
             span {
                 color: $primary-color;
             }
+        }
+
+        .description {
+            width: 600px;
         }
     }
 }

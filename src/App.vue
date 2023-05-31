@@ -14,4 +14,14 @@ export default {
 
 <style lang="scss">
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#app {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 </style>

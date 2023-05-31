@@ -5,9 +5,10 @@ import AppServices from './AppServices.vue';
 import AppTour from './AppTour.vue';
 import AppAppointment from './AppAppointment.vue';
 import AppClient from './AppClient.vue';
+import AppFooterVue from './AppFooter.vue';
 
 export default {
-    components: { AppFeatures, AppDoctors, AppServices, AppTour, AppAppointment, AppClient }
+    components: { AppFeatures, AppDoctors, AppServices, AppTour, AppAppointment, AppClient, AppFooterVue }
 };
 
 </script>
@@ -19,6 +20,7 @@ export default {
     <AppTour />
     <AppAppointment />
     <AppClient />
+    <AppFooterVue />
 </template>
 
 <style lang="scss" scoped></style>
