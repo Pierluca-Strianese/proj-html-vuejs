@@ -35,12 +35,25 @@ ul {
     color: $white-text;
     border: 2px solid white;
     margin-inline: auto;
+
+    &:hover {
+        background-color: $white-text;
+        color: $primary-color;
+        cursor: pointer;
+    }
 }
 
 .btn_tra {
     padding: .5rem 2.5rem;
     width: fit-content;
     border: 1px solid black;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $white-text;
+        cursor: pointer;
+        border: 1px solid white;
+    }
 }
 
 .container_big {
@@ -79,6 +92,7 @@ ul {
 .icon_social {
     font-size: 1.8rem;
     padding-right: .5rem;
+    cursor: pointer;
 }
 
 .facebook {

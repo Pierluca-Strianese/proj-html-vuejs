@@ -52,12 +52,19 @@ export default {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        color: $white-text;
+
+        ::-webkit-input-placeholder {
+            color: white;
+            font-size: .8rem;
+        }
     }
 
     .form_note {
         ::-webkit-input-placeholder {
             color: white;
             font-style: italic;
+            font-size: .8rem;
         }
 
         input {

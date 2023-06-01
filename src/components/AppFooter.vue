@@ -72,14 +72,14 @@ footer {
     .info {
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 70%;
 
         .description {
             width: 60%;
         }
 
         .contact_info {
-            width: 30%;
+            width: 40%;
 
             ul {
                 li {
@@ -101,7 +101,7 @@ footer {
     }
 
     .departments {
-        width: 40%;
+        width: 30%;
         margin-bottom: 6rem;
 
         ul {
