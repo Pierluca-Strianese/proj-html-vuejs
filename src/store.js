@@ -5,7 +5,7 @@ export const store = reactive({
         {
             name: 'HOME',
             src: '#',
-            active: true,
+            active: false,
         },
         {
             name: 'ABOUT',
@@ -15,7 +15,7 @@ export const store = reactive({
         {
             name: 'DEPARTMENT',
             src: '#',
-            active: false,
+            active: true,
         },
         {
             name: 'ARTICLES',
