@@ -39,9 +39,6 @@ header {
         ul {
             display: flex;
             justify-content: end;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
 
             li {
                 display: flex;

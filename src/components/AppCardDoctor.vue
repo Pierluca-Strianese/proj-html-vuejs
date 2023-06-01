@@ -19,9 +19,9 @@ export default {
                 <h4> {{ Doctor.name }} </h4>
                 <span class="specialization">{{ Doctor.specialization }}</span>
                 <p>{{ Doctor.description }}</p>
-                <font-awesome-icon icon="fa-brands fa-square-facebook" class="icon facebook" />
-                <font-awesome-icon icon="fa-brands fa-square-twitter" class="icon twitter" />
-                <font-awesome-icon icon="fa-brands fa-square-instagram" class="icon instagram" />
+                <font-awesome-icon icon="fa-brands fa-square-facebook" class="icon_social facebook" />
+                <font-awesome-icon icon="fa-brands fa-square-twitter" class="icon_social twitter" />
+                <font-awesome-icon icon="fa-brands fa-square-instagram" class="icon_social instagram" />
             </div>
         </div>
     </div>
@@ -53,23 +53,6 @@ export default {
 
             p {
                 padding-top: 2rem;
-            }
-
-            .icon {
-                font-size: 1.8rem;
-                padding-right: .5rem;
-            }
-
-            .facebook {
-                color: $color_facebook;
-            }
-
-            .twitter {
-                color: $color_twitter;
-            }
-
-            .instagram {
-                color: $color_instagram;
             }
         }
     }

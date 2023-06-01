@@ -5,7 +5,13 @@ $background_color2: #E5E5E5;
 $color_facebook: #425893;
 $color_twitter: #6BAAE8;
 $color_instagram: #4B7197;
+$color_youtube: #c33838;
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 .btn_primary {
     display: flex;
@@ -29,6 +35,12 @@ $color_instagram: #4B7197;
     color: $white-text;
     border: 2px solid white;
     margin-inline: auto;
+}
+
+.btn_tra {
+    padding: .5rem 2.5rem;
+    width: fit-content;
+    border: 1px solid black;
 }
 
 .container_big {
@@ -62,4 +74,34 @@ $color_instagram: #4B7197;
     border: 1px solid white;
     padding: .5rem;
     margin: 1rem 0;
+}
+
+.icon_social {
+    font-size: 1.8rem;
+    padding-right: .5rem;
+}
+
+.facebook {
+    color: $color_facebook;
+}
+
+.twitter {
+    color: $color_twitter;
+}
+
+.instagram {
+    color: $color_instagram;
+}
+
+.youtube {
+    color: $color_youtube;
+}
+
+.rounded_icon {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    color: white;
 }

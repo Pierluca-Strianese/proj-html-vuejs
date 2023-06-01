@@ -116,6 +116,14 @@ export const store = reactive({
         },
 
     ],
+
+    medicalDepartments: [
+        "Cardiology",
+        "Pediactrics",
+        "Diabetes Care",
+        "Pre - natel Care",
+        "Ultrasound Echocardiogram"
+    ]
 });
 
 export default store
