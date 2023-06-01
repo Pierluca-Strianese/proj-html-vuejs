@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <main>
+    <footer>
         <AppNavBar />
         <div class="container">
             <h1> Caring <span> For Life </span> </h1>
@@ -17,13 +17,13 @@ export default {
                 if it was our own family.</div>
             <div class="btn_primary my-3 py-2 px-5"> LEARN MORE </div>
         </div>
-    </main>
+    </footer>
 </template>
 
 <style lang="scss" scoped>
 @use "../style/general.scss" as *;
 
-main {
+footer {
     background-image: url("../assets/images/header-image-homepage.jpg");
     background-size: cover;
     height: 90vh;

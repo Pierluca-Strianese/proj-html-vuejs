@@ -16,11 +16,13 @@ import { faSquareYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
 /* add icons to the library */
-library.add(faSquareFacebook, faSquareTwitter, faSquareInstagram, faSquareYoutube, faLocationDot, faPhoneFlip, faCaretRight)
+library.add(faSquareFacebook, faSquareTwitter, faSquareInstagram, faSquareYoutube, faLocationDot, faPhoneFlip, faCaretRight, faAngleDown)
 
 
 createApp(App)
