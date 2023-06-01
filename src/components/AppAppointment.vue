@@ -1,6 +1,13 @@
 <script>
+import { store } from '../store';
 
 export default {
+
+    data() {
+        return {
+            store,
+        }
+    },
 
 };
 
@@ -9,20 +16,19 @@ export default {
 <template>
     <div class="appointment">
         <div class="container_description_section">
-            <h3> Make an appointment</h3>
+            <h3>
+                {{ store.AppointmentsDescription.title }}
+            </h3>
 
             <div class="line_container">
                 <img src="../assets/images/long-line.png" alt="" class="long_line">
             </div>
 
             <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id
-                nihil
-                unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque
-                ex.
+                {{ store.AppointmentsDescription.description }}
             </div>
 
-            <div class="form">
+            <div class="form mt-4">
                 <input type="text" placeholder="Name" class="input_form">
                 <input type="email" placeholder="Email" class="input_form">
                 <input type="number" placeholder="Phone number" class="input_form">
@@ -71,8 +77,6 @@ export default {
             width: 100%;
             height: 7rem;
         }
-
-
     }
 
     .btn_primary {

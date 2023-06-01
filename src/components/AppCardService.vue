@@ -15,9 +15,9 @@ export default {
 <template>
     <div class="service" v-for="(Service, i) in store.services" :key="i">
 
-        <img :src="Service.img" alt="">
-        <h4> {{ Service.name }}</h4>
-        <p> {{ Service.description }} </p>
+        <img :src="Service.img" alt="" class="p-2">
+        <h4 class="p-3"> {{ Service.name }}</h4>
+        <p class="pb-4"> {{ Service.description }} </p>
 
     </div>
 </template>
@@ -27,14 +27,6 @@ export default {
 
 .service {
     width: calc((100% / 3) - 2rem);
-
-    img {
-        padding: 1rem;
-    }
-
-    h4 {
-        padding: 1rem;
-    }
 
     h4:hover {
         color: $primary-color;

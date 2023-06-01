@@ -20,10 +20,12 @@ export default {
 
 html,
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
 }
 
 #app {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
 }
 </style>

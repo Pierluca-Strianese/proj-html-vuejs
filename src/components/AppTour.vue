@@ -1,8 +1,15 @@
 <script>
-import AppCardTour from './AppCardTour.vue'
+import AppCardTour from './AppCardTour.vue';
+import { store } from '../store';
 
 export default {
-    components: { AppCardTour }
+    components: { AppCardTour },
+
+    data() {
+        return {
+            store,
+        }
+    },
 };
 
 </script>
@@ -11,17 +18,14 @@ export default {
     <div class="container_tour">
         <div class="container_description_section">
             <img src="../assets/images/icon-7.png" alt="">
-            <h4>TOUR OUR FACILITES</h4>
+            <h4>{{ store.TourDescription.title }}</h4>
 
             <div class="line_container">
                 <img src="../assets/images/long-line.png" alt="" class="long_line">
             </div>
 
             <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id
-                nihil
-                unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque
-                ex.
+                {{ store.TourDescription.description }}
             </div>
 
             <img src="../assets/images/play-icon.png" alt="" class="mt-5">

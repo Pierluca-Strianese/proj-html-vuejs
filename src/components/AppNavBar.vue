@@ -13,8 +13,8 @@ export default {
 
 <template>
     <headerTop>
-        <img src="../assets/images/medical_logo_1x_light.png" alt="" class="ps-4 py-3">
-        <span>
+        <img src="../assets/images/medical_logo_1x_light.png" alt="" class="ps-5 py-4">
+        <span class="pe-5 py-4">
             <ul>
                 <li v-for="(menuItem, i) in store.menuData" :key="i">
                     <a :href="menuItem.src" :class="{ active: menuItem.active }">
@@ -43,7 +43,6 @@ headerTop {
 
     span {
         display: flex;
-        margin-right: 1rem;
 
         ul {
             display: flex;

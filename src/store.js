@@ -24,6 +24,12 @@ export const store = reactive({
         },
     ],
 
+    FeaturesDescription: {
+        title: 'Welcome to Avada Health',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi itaque, voluptate fuga sequi consequuntur quod molestiae placeat labore officia dignissimos, at blanditiis mollitia optio ad veritatis veniam! Natus, porro vero!',
+
+    },
+
     features: [
         {
             name: 'SAME DAY APPOINTMENTS',
@@ -47,6 +53,12 @@ export const store = reactive({
         },
     ],
 
+    DoctorsDescription: {
+        title: 'MEET OUR DOCTORS',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id nihil unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque ex.',
+
+    },
+
     doctor: [
         {
             name: 'Jon SNOW',
@@ -67,6 +79,12 @@ export const store = reactive({
             img: 'src/assets/images/doctor-3.jpg',
         },
     ],
+
+    ServicesDescription: {
+        title: 'OUR HEALTH SERVICES',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id nihil unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque ex.',
+
+    },
 
     services: [
         {
@@ -101,6 +119,12 @@ export const store = reactive({
         }
     ],
 
+    TourDescription: {
+        title: 'TOUR OUR FACILITES',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id nihil unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque ex.',
+
+    },
+
     cardTour: [
         {
             name: 'Emergency Care',
@@ -117,13 +141,19 @@ export const store = reactive({
 
     ],
 
+    AppointmentsDescription: {
+        title: 'Make an appointment',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id nihil unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque ex.',
+
+    },
+
     medicalDepartments: [
         "Cardiology",
         "Pediactrics",
         "Diabetes Care",
         "Pre - natel Care",
         "Ultrasound Echocardiogram"
-    ]
+    ],
 });
 
 export default store

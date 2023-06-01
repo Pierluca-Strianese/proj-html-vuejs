@@ -1,10 +1,17 @@
 <script>
 import AppCardService from './AppCardService.vue';
+import { store } from '../store';
 
 export default {
     components: {
         AppCardService
-    }
+    },
+
+    data() {
+        return {
+            store,
+        }
+    },
 };
 
 </script>
@@ -13,17 +20,14 @@ export default {
     <div class="container_big">
         <div class="container_description_section">
             <img src="../assets/images/icon-6.png" alt="">
-            <h3> OUR HEALTH SERVICES </h3>
+            <h3> {{ store.ServicesDescription.title }} </h3>
 
             <div class="line_container">
                 <img src="../assets/images/long-line.png" alt="" class="long_line">
             </div>
 
             <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit consectetur molestias incidunt id
-                nihil
-                unde, quas quo deleniti illo veniam. A praesentium qui optio consequatur necessitatibus, iure doloremque
-                ex.
+                {{ store.ServicesDescription.description }}
             </span>
         </div>
         <div class="services_container pt-5 ">

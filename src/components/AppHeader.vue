@@ -31,7 +31,7 @@ footer {
     .container {
         width: 900px;
         color: $white-text;
-        padding-top: 10rem;
+        padding-top: 12rem;
 
         h1 {
             font-size: 4rem;
